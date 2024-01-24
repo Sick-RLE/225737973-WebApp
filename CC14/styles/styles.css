@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #100068;
+    font-family: 'Lato', sans-serif;
+  }
+
+#wrapper {
+    position: relative;
+}
+
+li {
+    list-style: none;
+}
+.nav-link{
+    color: white;
+
+}
+nav > ul {
+    width: 35vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
