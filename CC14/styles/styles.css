@@ -4,61 +4,110 @@
     box-sizing: border-box;
 }
 
-.vino {
+body {
     background-color: #120D30;
     font-family: 'Lato', sans-serif;
+}
+
+
+ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+
+li {
+    list-style: none;
 }
 
 #hedd {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-}
-
-.hedd2 {}
-
-.logo {
-    height: 100px;
-    width: 100px;
-}
-.nav-item{
-    font-size: 19px;
-}
-.btn {
-    background-color: #FFFFFF;
-    color: black;
-    border-radius: 5px;
-    height: 20px;
-    width: 70px;
-}
-.wht{
-    color: #FFFFFF;
-    border: none;
-    border-top: 3px solid;
     padding: 0;
 }
-.mrk {
-    color: #FFC700;
+.logo {
+    height: 90px;
+    width: 77px;
 }
 
+.nav-bar {
+    height: 2vw;
+    width: 40vw;
+    position: fixed;
+}
+
+.nav-item {
+    font-size: 19px;
+    margin: 0 10px 0 10 px;
+}
+
+.nav-link {
+    font-size: 30px;
+    color: #FFC700;
+    text-decoration: none;
+}
+
+.btn {
+    font-size: 25px;
+    font-weight: bold;
+    padding: 10px 16px 10px 16px;
+    margin: 100px 0 10px 30px;
+    flex-shrink: 0;
+    border-radius: 35px;
+    background: #ffffff;
+    border-color: #FFC700;
+    border-style: solid;
+    border-width: 1px;
+    box-shadow: 13px 10px 0 black    ;
+    transition: background-color 0.15s;
+    vertical-align: top;
+}
+.btn:hover {
+    cursor: pointer;
+    background-color: #FFC700;
+}
+.btn:active {
+    cursor: progress;
+    background-color: #FFC700;
+    opacity: 0.7;
+}
+.space {
+    margin: 0 0 250 0;
+}
+.mrk {
+    font-size: 30px;
+    color: #FFC700;
+}
 .bl {
     color: #2400FF;
 }
-
+.edit {
+    margin: 0 0 0 250;
+}
+.e1 {
+    font-weight: bold;
+    color: #FFC700;
+}
 .e2 {
     color: #FFC700;
 }
-
-.meme {
-    height: 600px;
-    width: 450px;
-}
-
 .e3 {
     color: #FFFFFF;
 }
-
-
-.btn:hover {
-    cursor: pointer;
+.bock{
+    height: 200px;
+    width: 230px;
+    background-color: #5A5775;
+}
+.dd {
+    height: 200px;
+    width: 230px;
+    box-shadow: 10px 10px 0 #130088;
+}
+.meme {
+    width: 810px;
+    height: 871px;
+    margin-left: 625px;
 }
