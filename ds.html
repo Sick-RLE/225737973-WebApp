@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            padding-bottom: 300px;
+        }
+
+        .headr {
+            display: flex;
+            flex-direction: row;
+            margin: 0 10px;
+        }
+
+        .head-left {
+            display: flex;
+            flex: 1;
+            justify-content: start;
+            align-items: center;
+        }
+
+        .head-right {
+            display: flex;
+            flex: 1;
+            justify-content: end;
+        }
+
+        main {
+            margin: 10px 170px;
+        }
+
+        .t1 {
+            display: flex;
+            width: 500px;
+        }
+
+        .t2 {
+            display: flex;
+        }
+
+        .body-text {
+            display: flex;
+            justify-content: center;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        button {
+            border: none;
+            border-color: black;
+            border-style: none;
+            padding: 10px;
+            background-color: antiquewhite;
+            margin: 0 5px 4px 5px;
+            border-radius: 9px;
+        }
+
+        button:hover {
+            cursor: pointer;
+            background-color: rgb(218, 203, 185);
+        }
+
+        .dropdown a {
+            display: block;
+            width: 90px;
+            text-decoration: none;
+            color: black;
+            padding: 10px 12px;
+            background-color: chocolate;
+        }
+
+        .dropdown .content {
+            display: none;
+            width: 90px;
+            position: absolute;
+            text-decoration: none;
+            color: black;
+            background-color: aqua;
+            box-shadow: 27px 3px 7px black;
+        }
+
+        .dropdown:hover .content {
+            display: block;
+        }
+
+        a:hover {
+            background-color: rgb(195, 98, 29);
+        }
+
+        .body-last {
+            display: flex;
+            flex-direction: row;
+        }
+
+        .b1 {
+            display: flex;
+            flex: 2;
+            justify-content: end;
+        }
+
+        .b2 {
+            display: flex;
+            flex: 1;
+            text-align: center;
+            justify-content: start;
+        }
+
+        .edit-texta {
+            border: none;
+            background: none;
+            outline: none;
+            border-bottom: 2px solid #000000;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="home" class="headr">
+        <div class="head-left">
+            <button class="logo l1">LOGO</button>
+        </div>
+        <div class="head-right">
+            <div class="dropdown">
+                <button class="dropbtn">Dropdown</button>
+                <div class="content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+            <div>
+                <button>BTN</button>
+            </div>
+        </div>
+    </div>
+    <div>
+
+    </div>
+    <main>
+        <div>
+            <h1>TITLE</h1>
+            <hr>
+            <div class="body-text">
+                <p class="body-part t1">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil distinctio non
+                    aperiam molestias magni commodi! Quo temporibus dolorum aspernatur alias nobis magni, recusandae
+                    quaerat quas iste eum obcaecati velit laudantium!</p>
+            </div>
+            <div class="body-text">
+                <p class="body-part t2">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Sunt incidunt
+                    laudantium blanditiis reiciendis neque provident temporibus aspernatur maiores non fugit sapiente,
+                    vero omnis magnam doloribus ea ab maxime perferendis explicabo cum magni id veniam rerum assumenda?
+                    Nihil officiis libero quibusdam sunt alias hic esse dolor enim natus animi provident, aut maiores.
+                    Ipsa placeat, illum nesciunt iste quaerat itaque, optio porro sint dolorem odio commodi neque ipsam
+                    dolorum expedita! Libero accusamus inventore ducimus sequi eveniet voluptatum culpa eos consequuntur
+                    deserunt beatae, iste nulla molestiae expedita harum aliquid hic earum assumenda blanditiis
+                    voluptatibus id repudiandae officiis, commodi natus atque. Consequatur, qui fugiat.</p>
+            </div>
+            <div class="body-last">
+                <div class="bbb b1">
+                    <textarea class="edit-texta" name="text" id="answer" cols="60" rows="3"
+                        placeholder="Message..."></textarea>
+                </div>
+                <div class="bbb b2">
+                    <button class="last-btn">SEND</button>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
